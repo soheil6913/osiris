@@ -38,7 +38,7 @@ class MainActivity : Activity() {
             javaScriptEnabled = true
             domStorageEnabled = true
             databaseEnabled = true
-            geolocationEnabled = true
+            setGeolocationEnabled(true)
             mediaPlaybackRequiresUserGesture = true
             allowFileAccess = false
             allowContentAccess = true
